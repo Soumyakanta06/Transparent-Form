@@ -82,7 +82,7 @@ body{
      box-shadow: 10px 10px 20px rgb(8, 233, 38),-10px -10px 20px rgb(12, 221, 228) ; 
     border-radius: 4px;
 }
-@media screen and (max-width:1332px) and (min-width:400px){
+@media screen and (max-width:1420px) and (min-width:400px){
     body{
         background-attachment: fixed;
         background-size: 200%;
@@ -91,4 +91,28 @@ body{
         background-position: center center;
     }
     
+}
+@media screen and (max-width:843px) and (min-width:400px){
+    body{
+        background-attachment: fixed;
+        background-size: 300%;
+        background-repeat: no-repeat;
+        height: 743px;
+        background-position: center center;
+    }
+    
+}
+@media screen and (max-width:557px) and (min-width:400px){
+    body{
+        background-attachment: fixed;
+        background-size: 400%;
+        background-repeat: no-repeat;
+        height: 743px;
+        background-position: center center;
+    }
+    .login-box{
+        background: rgba(255, 255, 255, 0.1);
+
+    }
+
 }
